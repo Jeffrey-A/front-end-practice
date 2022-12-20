@@ -1,0 +1,27 @@
+nav {
+    background-color: #6e072d;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    padding: 1em 1.5em;
+}
+
+li+li {
+    border-left: 2px solid white;
+}
+
+li:hover {
+    background-color: #b90e4d;
+    cursor: pointer;
+}
